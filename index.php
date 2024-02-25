@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login </title>
+    <a href="login.php"></a>
 </head>
 <body>
-    <div class="contener">
-    <h1>Login Form</h1>
-    <form action="" method="post">
-        <label>Email address/phonenumber:</label>
-        <input type="email" name="email" id="email"><br><br>
-        <label>Password:</label>
-        <input type="password" name="pass" id="password"><br><br>
-        <input type="button" value="login" onclick="Valid()"><br><br>
+    <form action="Signup.php" method="">
+    <div class="container">
+    <label>User Name</label>
+    <input type="text" id="naem" name="Uname"><br><br>
+    <label>Phone.NO.</label>
+    <input type="number" id="num" name="number"><br><br>
+    <label>Death of Birth</label>
+    <input type="date" id="dat" name="DOB"><br><br>
+    <label>Email address</label>
+    <input type="email" id="Email" name="Email"><br><br>
+    <label for="passvord">password</label>
+    <input type="password" id="Pass" name="Pass"><br>
+    <input type="button"  value="SignUp">
+
+    </div>
     </form>
 
         
