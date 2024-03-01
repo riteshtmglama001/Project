@@ -13,13 +13,17 @@
 }
 
 body{
-    background-image: url('p2.jpeg');
+    background-image: url('im.jpeg');
+}
+h2{
+    color: white;
+    margin:auto;
+    padding: 20px;
 }
 
 .table1{
-    background-color:white;
+    background-color:black;
     width: 100%;
-    animation: borde 3s infinite;
 }
 @keyframes borde {
   0%{
@@ -39,30 +43,37 @@ body{
     text-align:center;
 }
 .container{
-    margin-top:-50px;
+    margin:-50px 50px 50px 50px;
+    border: 2px;
+    border-radius: 20px;
+    border-bottom:20px ;
+    color: aliceblue;
+    
+}
+.p{
+    font-size: 18px;
+    color: aliceblue;
 }
 
-#hero{
-    animation: borde 3s infinite;
-}
 
     </style>
 </head>
 <body>
+    <div><h2>Record of the Students who live in hostle</h2></div>
 <section style="margin: 50px 0;">
-        <div class="container">
-            <table class="table1" border="1">
+<div class="container">
+            <table class="table1" border="2">
                 <thead>
                   <tr>
-                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Id</th>
-                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">FulltName</th>
-                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">ParentName</th>
-                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Age</th>
-                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Gender</th>
-                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">Address</th>
-                    <th scope="col" style="background-color:darkgray; color:white; padding:10px;">PhoneNO</th>
-                    <th scope="col" style="background-color:green;">Edit</th>
-                    <th scope="col" style="background-color:green;">Delete</th>
+                    <th scope="col" style="background-color:whitesmoke; color:black; padding:10px;">Id</th>
+                    <th scope="col" style="background-color:whitesmoke; color:black; padding:10px;">FulltName</th>
+                    <th scope="col" style="background-color:whitesmoke; color:black; padding:10px;">ParentName</th>
+                    <th scope="col" style="background-color:whitesmoke; color:black; padding:10px;">Age</th>
+                    <th scope="col" style="background-color:whitesmoke; color:black; padding:10px;">Gender</th>
+                    <th scope="col" style="background-color:whitesmoke; color:black; padding:10px;">Address</th>
+                    <th scope="col" style="background-color:whitesmoke; color:black; padding:10px;">PhoneNO</th>
+                    <th scope="col" style="background-color:green;">Action</th>
+                    <th scope="col" style="background-color:green;">Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -102,7 +113,8 @@ body{
               </table>
               <center>
               <a href="connect.php"><input type="Text" value="Add" Id="hero" style="cursor:pointer; padding:10px;
-              width:80px;font-size:30px; margin-top:100px;background-color:darkgray;color:white;"></a>
+              width:70px;font-size:30px; margin-top:100px;background-color:whitesmoke;color:black;text-align:center;border-radius:10px;
+              ;"></a>
               <p> If You Want to add a new data click Add button.</p> 
               </center>
         </div>
